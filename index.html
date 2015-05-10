@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/base.css" rel="stylesheet" type="text/css" />
+    
+    <meta charset="utf-8">
+    <title>Milly</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="jumbotron">
+            <h2 data-target contenteditable></h2>
+            <p>
+                <span data-complete>23.67km Completed</span><br>
+                <span data-remaining>16.33km Remaining</span>
+            <p>
+
+            <div class="progress">
+                <div data-progress class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="45" style="width: 0%">
+                    45%
+                </div>
+            </div>
+        </div>
+
+        <form data-submit>
+            <form class="session-input">
+                <div class="form-group">
+                    <label for="distance">Distance</label>
+                    <input type="number" name="distance" class="form-control" step="0.01">
+                </div>
+
+                <button type="submit" class="btn btn-primary block">Submit</button>
+            </form>
+        </form>
+
+        <div class="badge-container" data-badge-container></div>
+
+    </div>
+
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>-->
+    <script src="./js/hack.js"></script>
+</body>
+</html>

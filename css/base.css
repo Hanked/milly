@@ -1,0 +1,27 @@
+.container {
+    width: 400px;
+    padding: 40px;
+}
+
+.session-input {
+    margin-bottom: 20px;
+}
+
+.btn.block {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 5px;
+}
+
+.jumbotron {
+    padding: 10px 15px;
+}
+
+.badge-container {
+	margin: 60px 0 20px;
+}
+
+.label-success {
+ padding: 5px;
+ margin: 5px 5px 0 0;
+}
